@@ -4,7 +4,8 @@ export default function RootLayout() {
     return (
         <Stack initialRouteName="index" screenOptions={{ headerShown: false }}>
             <Stack.Screen name="index" />
-            <Stack.Screen name="(tabs)" />
+            <Stack.Screen name="(tabs)" options={{ title: "Produtos" }} />
+            <Stack.Screen name="product/[id]" options={{ headerShown: true }} />
         </Stack>
     );
 }
