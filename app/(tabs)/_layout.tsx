@@ -13,7 +13,7 @@ export default function TabLayout() {
                     ),
                 }}
             />
-            <Tabs.Screen
+            {/* <Tabs.Screen
                 name="categories"
                 options={{
                     title: "Categorias",
@@ -21,8 +21,8 @@ export default function TabLayout() {
                         <FontAwesome size={28} name="archive" color={color} />
                     ),
                 }}
-            />
-            <Tabs.Screen
+            /> */}
+            {/* <Tabs.Screen
                 name="about"
                 options={{
                     title: "Sobre mim",
@@ -30,7 +30,7 @@ export default function TabLayout() {
                         <FontAwesome size={28} name="user" color={color} />
                     ),
                 }}
-            />
+            /> */}
         </Tabs>
     );
 }
