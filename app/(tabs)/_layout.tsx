@@ -13,7 +13,7 @@ export default function TabLayout() {
                     ),
                 }}
             />
-            {/* <Tabs.Screen
+            <Tabs.Screen
                 name="categories"
                 options={{
                     title: "Categorias",
@@ -21,7 +21,7 @@ export default function TabLayout() {
                         <FontAwesome size={28} name="archive" color={color} />
                     ),
                 }}
-            /> */}
+            />
             <Tabs.Screen
                 name="about"
                 options={{
